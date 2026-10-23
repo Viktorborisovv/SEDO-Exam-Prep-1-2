@@ -1,4 +1,4 @@
-
+// Jenkinsfile for .NET Core project
 pipeline {
     agent any
 
