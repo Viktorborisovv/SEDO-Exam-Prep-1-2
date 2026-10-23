@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Restore Dependencies') {
+        stage('Restore dependencies') {
             when{
                 anyOf {
                     branch 'main'
